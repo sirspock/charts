@@ -8,7 +8,7 @@ metadata:
   annotations:
     helm-keep: "true"
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: deis-router
   ports:
